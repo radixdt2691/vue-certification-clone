@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    --tw-bg-opacity: 1;
+    background-color: rgb(26 26 26/var(--tw-bg-opacity));
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../src/fonts/Inter-ExtraBold.woff') , url('../src/fonts/Inter-ExtraBold.woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../src/fonts/Inter-Regular.woff') , url('../src/fonts/Inter-Regular.woff2');
+}
+
+@layer utilities{
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+  
+      .no-scrollbar {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+} 
+
