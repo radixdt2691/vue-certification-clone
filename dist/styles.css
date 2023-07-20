@@ -884,6 +884,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .overflow-x-auto {
   overflow-x: auto;
 }
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
 .overflow-x-clip {
   overflow-x: clip;
 }
@@ -1826,6 +1829,10 @@ body{
   .md\:gap-x-16 {
     -moz-column-gap: 4rem;
          column-gap: 4rem;
+  }
+
+  .md\:overflow-auto {
+    overflow: auto;
   }
 
   .md\:p-8 {
