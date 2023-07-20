@@ -438,9 +438,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pointer-events-none {
   pointer-events: none;
 }
-.invisible {
-  visibility: hidden;
-}
 .absolute {
   position: absolute;
 }
@@ -957,23 +954,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-body-gray\/20 {
   background-color: rgb(151 159 173 / 0.2);
 }
-.bg-body-gray {
-  --tw-bg-opacity: 1;
-  background-color: rgb(151 159 173 / var(--tw-bg-opacity));
-}
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
 .bg-none {
   background-image: none;
 }
-.from-\[\#4a3248\] {
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+.from-pre-order-from {
   --tw-gradient-from: #4a3248;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(74 50 72 / 0));
 }
@@ -1001,7 +994,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-from: #42b883;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(66 184 131 / 0));
 }
-.to-\[\#323751\] {
+.to-pre-order-to {
   --tw-gradient-to: #323751;
 }
 .to-cornflower-blue {
@@ -1260,10 +1253,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[\#53565e\] {
   --tw-text-opacity: 1;
   color: rgb(83 86 94 / var(--tw-text-opacity));
-}
-.text-\[\#535\] {
-  --tw-text-opacity: 1;
-  color: rgb(85 51 85 / var(--tw-text-opacity));
 }
 .underline {
   -webkit-text-decoration-line: underline;
@@ -1548,7 +1537,7 @@ body{
           background-clip: text;
 }
 
-.hover\:text-\[\#42B883\]:hover {
+.hover\:text-mint:hover {
   --tw-text-opacity: 1;
   color: rgb(66 184 131 / var(--tw-text-opacity));
 }
@@ -1556,11 +1545,6 @@ body{
 .hover\:text-github-hover:hover {
   --tw-text-opacity: 1;
   color: rgb(37 37 41 / var(--tw-text-opacity));
-}
-
-.hover\:text-mint:hover {
-  --tw-text-opacity: 1;
-  color: rgb(66 184 131 / var(--tw-text-opacity));
 }
 
 .hover\:text-transparent:hover {
@@ -1910,7 +1894,7 @@ body{
     line-height: 95px;
   }
 
-  .md\:leading-\[73px\] {
+  .md\:leading-73 {
     line-height: 73px;
   }
 
@@ -1956,7 +1940,7 @@ body{
     margin-top: 0px;
   }
 
-  .xl\:mt-\[140px\] {
+  .xl\:mt-140 {
     margin-top: 140px;
   }
 

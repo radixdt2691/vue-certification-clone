@@ -21,7 +21,9 @@ module.exports = {
         'spring-green':'#02faaf',
         'cerulean':'#0ebbd2',
         'bg-black-errie':'#1A1A1A',
-        'github-hover':'#252529'
+        'github-hover':'#252529',
+        'pre-order-from':'#4a3248',
+        'pre-order-to':'#323751'
       },
       gap:{
         '18':'4.5rem'
@@ -29,7 +31,8 @@ module.exports = {
       spacing:{
         '15':'3.75rem',
         '84':'21rem',
-        '176':'44rem'
+        '176':'44rem',
+        '140':'140px'
       },
       dropShadow:{
         'xl':'0 0 100px rgba(66,184,131,.5)'
@@ -40,6 +43,9 @@ module.exports = {
       transitionDuration:{
         '300':'.3s',
         '500':'.5s'
+      },
+      lineHeight:{
+        '73':'73px',
       },
     },
   },
