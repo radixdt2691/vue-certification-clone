@@ -502,6 +502,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .top-full {
   top: 100%;
 }
+.top-\[300px\] {
+  top: 300px;
+}
+.left-1\/2 {
+  left: 50%;
+}
+.right-40 {
+  right: 10rem;
+}
+.top-\[100px\] {
+  top: 100px;
+}
 .z-50 {
   z-index: 50;
 }
@@ -953,6 +965,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .bg-body-gray\/20 {
   background-color: rgb(151 159 173 / 0.2);
+}
+.bg-spring-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 250 175 / var(--tw-bg-opacity));
+}
+.bg-cerulean {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 187 210 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
